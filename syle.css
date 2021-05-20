@@ -1,0 +1,89 @@
+
+
+body{
+    background: url(/razorpay_payment/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center center;
+}
+
+.userform{
+    /* display: grid;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    padding: 50px; */
+    margin: 0 auto;
+    /* max-width: 550px; */
+    background: rgba(0, 0, 0,0.8);
+    /* background: rgb(84, 131, 138); */
+    display: grid;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    border-radius: 15px;
+    width: auto;
+    
+}
+
+.heading{
+    color: wheat;
+}
+
+.form-container{
+   top: 50%;
+    position: absolute;
+    width: 100%;
+    transform: translateY(-50%);
+    padding:0 20px;
+    margin-left: auto;
+    
+}
+
+/* .form-container{
+    background: black;
+    
+} */
+
+input{
+    margin-top: 5px;
+    padding: 17px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid whitesmoke;
+    background: transparent;
+    padding-right: 70px;
+    text-decoration: whitesmoke;
+    color: whitesmoke;
+}
+
+.error{
+    color: red;
+    font-size: small;
+}
+
+.title{
+    font-weight: 300;
+    border: black;
+    font-size: x-small;
+    color: whitesmoke;
+}
+
+
+.boxlabel{
+    color: whitesmoke;
+    margin-left: 3px;
+    margin-right: 3px;
+    font-size: large;
+}
+.boxhead{
+    color: wheat;
+}
+
+/* else {
+    echo '<div class="alert alert-warning alert-dismissible fade show" role="alert">
+<strong>Ooopsss</strong> Use only Jpg or png format
+<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>'; */
